@@ -1,0 +1,5 @@
+all:
+	g++ main.cpp general_functions.cpp battle_system.cpp character.cpp skills.cpp -o rpg_sandbox
+
+clean:
+	rm *o rpg_sandbox
